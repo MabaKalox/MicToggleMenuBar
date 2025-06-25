@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  MicToggleMenuBar
-//
-//  Created by Maba Kalox on 24/06/2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {

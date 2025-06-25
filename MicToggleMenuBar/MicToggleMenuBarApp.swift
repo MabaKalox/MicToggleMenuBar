@@ -37,7 +37,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             .addObserver(
                 self,
                 selector: #selector(toggleMicPlaySound),
-                name: .toggleMicIntent,
+                name: .toggleMicMuteRequest,
                 object: nil
             )
 
