@@ -1,0 +1,3 @@
+[submodule "mac-toggle-mic"]
+	path = mac-toggle-mic
+	url = https://github.com/MabaKalox/mac-toggle-mic.git

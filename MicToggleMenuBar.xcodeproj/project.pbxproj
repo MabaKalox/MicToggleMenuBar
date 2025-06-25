@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C14D1102E0B6230001739D3 /* libmac_toggle_mic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C14D10D2E0B6221001739D3 /* libmac_toggle_mic.a */; };
+		2C14D11F2E0B6906001739D3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C14D1182E0B68ED001739D3 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C14D10C2E0B6221001739D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C14D1072E0B6221001739D3 /* mac-toggle-mic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA008CBCAE62B6EE188278D9;
+			remoteInfo = "mac_toggle_mic.a (static library)";
+		};
+		2CBA88352E0B341A0018B844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBA881E2E0B34190018B844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBA88252E0B34190018B844;
+			remoteInfo = MicToggleMenuBar;
+		};
+		2CBA883F2E0B341A0018B844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBA881E2E0B34190018B844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBA88252E0B34190018B844;
+			remoteInfo = MicToggleMenuBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C14D1072E0B6221001739D3 /* mac-toggle-mic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "mac-toggle-mic.xcodeproj"; path = "mac-toggle-mic/mac-toggle-mic.xcodeproj"; sourceTree = "<group>"; };
+		2C14D1182E0B68ED001739D3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2C14D11A2E0B68F4001739D3 /* CoreAudioTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioTypes.framework; path = System/Library/Frameworks/CoreAudioTypes.framework; sourceTree = SDKROOT; };
+		2C1F865B2E0B5E2300945E93 /* mac-toggle-mic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "mac-toggle-mic.xcodeproj"; sourceTree = "<group>"; };
+		2CBA88262E0B34190018B844 /* MicToggleMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicToggleMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBA88342E0B341A0018B844 /* MicToggleMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicToggleMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBA883E2E0B341A0018B844 /* MicToggleMenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicToggleMenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2CBA88282E0B34190018B844 /* MicToggleMenuBar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MicToggleMenuBar;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBA88232E0B34190018B844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C14D11F2E0B6906001739D3 /* CoreAudio.framework in Frameworks */,
+				2C14D1102E0B6230001739D3 /* libmac_toggle_mic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA88312E0B341A0018B844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA883B2E0B341A0018B844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C14D0E62E0B5F9A001739D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C14D11A2E0B68F4001739D3 /* CoreAudioTypes.framework */,
+				2C14D1182E0B68ED001739D3 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C14D1082E0B6221001739D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C14D10D2E0B6221001739D3 /* libmac_toggle_mic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C1F865C2E0B5E2300945E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CBA881D2E0B34190018B844 = {
+			isa = PBXGroup;
+			children = (
+				2CBA88282E0B34190018B844 /* MicToggleMenuBar */,
+				2C14D0E62E0B5F9A001739D3 /* Frameworks */,
+				2CBA88272E0B34190018B844 /* Products */,
+				2C14D1072E0B6221001739D3 /* mac-toggle-mic.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		2CBA88272E0B34190018B844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA88262E0B34190018B844 /* MicToggleMenuBar.app */,
+				2CBA88342E0B341A0018B844 /* MicToggleMenuBarTests.xctest */,
+				2CBA883E2E0B341A0018B844 /* MicToggleMenuBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CBA88252E0B34190018B844 /* MicToggleMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBA88482E0B341A0018B844 /* Build configuration list for PBXNativeTarget "MicToggleMenuBar" */;
+			buildPhases = (
+				2CBA88222E0B34190018B844 /* Sources */,
+				2CBA88232E0B34190018B844 /* Frameworks */,
+				2CBA88242E0B34190018B844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2CBA88282E0B34190018B844 /* MicToggleMenuBar */,
+			);
+			name = MicToggleMenuBar;
+			packageProductDependencies = (
+			);
+			productName = MicToggleMenuBar;
+			productReference = 2CBA88262E0B34190018B844 /* MicToggleMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CBA88332E0B341A0018B844 /* MicToggleMenuBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBA884B2E0B341A0018B844 /* Build configuration list for PBXNativeTarget "MicToggleMenuBarTests" */;
+			buildPhases = (
+				2CBA88302E0B341A0018B844 /* Sources */,
+				2CBA88312E0B341A0018B844 /* Frameworks */,
+				2CBA88322E0B341A0018B844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBA88362E0B341A0018B844 /* PBXTargetDependency */,
+			);
+			name = MicToggleMenuBarTests;
+			packageProductDependencies = (
+			);
+			productName = MicToggleMenuBarTests;
+			productReference = 2CBA88342E0B341A0018B844 /* MicToggleMenuBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CBA883D2E0B341A0018B844 /* MicToggleMenuBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBA884E2E0B341A0018B844 /* Build configuration list for PBXNativeTarget "MicToggleMenuBarUITests" */;
+			buildPhases = (
+				2CBA883A2E0B341A0018B844 /* Sources */,
+				2CBA883B2E0B341A0018B844 /* Frameworks */,
+				2CBA883C2E0B341A0018B844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBA88402E0B341A0018B844 /* PBXTargetDependency */,
+			);
+			name = MicToggleMenuBarUITests;
+			packageProductDependencies = (
+			);
+			productName = MicToggleMenuBarUITests;
+			productReference = 2CBA883E2E0B341A0018B844 /* MicToggleMenuBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBA881E2E0B34190018B844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2CBA88252E0B34190018B844 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2CBA88332E0B341A0018B844 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2CBA88252E0B34190018B844;
+					};
+					2CBA883D2E0B341A0018B844 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2CBA88252E0B34190018B844;
+					};
+				};
+			};
+			buildConfigurationList = 2CBA88212E0B34190018B844 /* Build configuration list for PBXProject "MicToggleMenuBar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CBA881D2E0B34190018B844;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2CBA88272E0B34190018B844 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2C14D1082E0B6221001739D3 /* Products */;
+					ProjectRef = 2C14D1072E0B6221001739D3 /* mac-toggle-mic.xcodeproj */;
+				},
+				{
+					ProductGroup = 2C1F865C2E0B5E2300945E93 /* Products */;
+					ProjectRef = 2C1F865B2E0B5E2300945E93 /* mac-toggle-mic.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2CBA88252E0B34190018B844 /* MicToggleMenuBar */,
+				2CBA88332E0B341A0018B844 /* MicToggleMenuBarTests */,
+				2CBA883D2E0B341A0018B844 /* MicToggleMenuBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2C14D10D2E0B6221001739D3 /* libmac_toggle_mic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmac_toggle_mic.a;
+			remoteRef = 2C14D10C2E0B6221001739D3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CBA88242E0B34190018B844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA88322E0B341A0018B844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA883C2E0B341A0018B844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CBA88222E0B34190018B844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA88302E0B341A0018B844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA883A2E0B341A0018B844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CBA88362E0B341A0018B844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBA88252E0B34190018B844 /* MicToggleMenuBar */;
+			targetProxy = 2CBA88352E0B341A0018B844 /* PBXContainerItemProxy */;
+		};
+		2CBA88402E0B341A0018B844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBA88252E0B34190018B844 /* MicToggleMenuBar */;
+			targetProxy = 2CBA883F2E0B341A0018B844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CBA88462E0B341A0018B844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CBA88472E0B341A0018B844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2CBA88492E0B341A0018B844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MicToggleMenuBar/MicToggleMenuBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/mac-toggle-mic";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mic Toggle Mute MenuBar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maba-kalox.MicToggleMenuBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MicToggleMenuBar/MicToggleMenuBarBridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2CBA884A2E0B341A0018B844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MicToggleMenuBar/MicToggleMenuBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/mac-toggle-mic";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mic Toggle Mute MenuBar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maba-kalox.MicToggleMenuBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MicToggleMenuBar/MicToggleMenuBarBridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2CBA884C2E0B341A0018B844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maba-kalox.MicToggleMenuBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicToggleMenuBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MicToggleMenuBar";
+			};
+			name = Debug;
+		};
+		2CBA884D2E0B341A0018B844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maba-kalox.MicToggleMenuBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicToggleMenuBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MicToggleMenuBar";
+			};
+			name = Release;
+		};
+		2CBA884F2E0B341A0018B844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maba-kalox.MicToggleMenuBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MicToggleMenuBar;
+			};
+			name = Debug;
+		};
+		2CBA88502E0B341A0018B844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7C7VF6PFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maba-kalox.MicToggleMenuBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MicToggleMenuBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBA88212E0B34190018B844 /* Build configuration list for PBXProject "MicToggleMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBA88462E0B341A0018B844 /* Debug */,
+				2CBA88472E0B341A0018B844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBA88482E0B341A0018B844 /* Build configuration list for PBXNativeTarget "MicToggleMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBA88492E0B341A0018B844 /* Debug */,
+				2CBA884A2E0B341A0018B844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBA884B2E0B341A0018B844 /* Build configuration list for PBXNativeTarget "MicToggleMenuBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBA884C2E0B341A0018B844 /* Debug */,
+				2CBA884D2E0B341A0018B844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBA884E2E0B341A0018B844 /* Build configuration list for PBXNativeTarget "MicToggleMenuBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBA884F2E0B341A0018B844 /* Debug */,
+				2CBA88502E0B341A0018B844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBA881E2E0B34190018B844 /* Project object */;
+}
